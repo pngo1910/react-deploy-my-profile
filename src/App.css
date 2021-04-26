@@ -3,8 +3,9 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 60vmin;
   pointer-events: none;
+  border-radius: 500px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,6 +28,12 @@
 .App-link {
   color: #61dafb;
 }
+.Main-Input {
+  width: "50vw" !important;
+  height: "10vmin" !important;
+  font-size: 20 !important;
+  text-align: center;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +43,4 @@
     transform: rotate(360deg);
   }
 }
+
